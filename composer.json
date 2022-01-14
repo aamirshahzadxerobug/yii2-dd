@@ -1,0 +1,21 @@
+{
+    "name": "xerobug/dump-die",
+    "description": "Dump Die package based on symfony/var-dumper.",
+    "type": "extension",
+    "keywords": ["yii2", "dump-die", "dd", "var-dump", "var-dumper", "dumper", "dump die"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amir Shahzad",
+            "email": "aamirshahzad.kp@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "~3.3"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
