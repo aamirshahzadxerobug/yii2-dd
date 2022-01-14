@@ -1,5 +1,4 @@
-<?php declare(strict_types=1);
-
+<?php
 if (!function_exists('dd')) {
     function dd($data)
     {
